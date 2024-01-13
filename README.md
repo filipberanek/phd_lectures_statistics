@@ -1,4 +1,8 @@
-# Westbohemian University Pilsen
-## Department of Cybernetics 
-### PhD - Statistics
-I have done this work as part of my PhD study. I trained several networks to do semantic segmentation of dirt on camera. Some of the networks I reused, some of the networks I build from scratch only in order to experiment. I had to select the one that is best fitting our needs for the initial production runs. Selected network is currently running in production and its procesing few tens of thousands of traces monthly. 
+<h1>Westbohemian University Pilsen</h1>
+<h2>Department of Cybernetics</h2> 
+<h3>PhD - Statistics</h3>
+This experiment is part of my Statistics lecture I took as part of my Phd study.</br>
+I have downloaded woodscape dataset: https://woodscape.valeo.com/woodscape/download, </br>
+which is one of very few that contains annotated data for soiling</br>
+Then I studied segmentation networks. Some of them I created from the scratch and some of them I downloaded without weights, replaced few top layers and trained them.</br>
+My task was very simple. Train few networks and select the one, that seems to be best performing. For the selection I should have use statistical methods recommended by my professors. 
